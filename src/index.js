@@ -44,3 +44,15 @@ const val5 = ["dog", "cat"];
 console.log(val5);
 val5[0] = "bird";
 val5.push("fish");
+
+const name = "aaa";
+const age = 28;
+
+const message = "私のの名前は" + name + "です。年齢は" + age + "です。";
+console.log(message);
+const message2 = `私は名前は${name}です。年齢は${age}です。`;
+console.log(message2);
+
+const sayHello = (name = "guest") => console.log(`こんにちは${name}さん`);
+sayHello("bbb");
+sayHello();
